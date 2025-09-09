@@ -7,3 +7,17 @@
     margin: 0 auto;
     background-color: yellow;
 }
+
+#slider2 {
+     width: 1110px;
+    height: 260px;
+    margin: 0 auto;
+    background-color: green;
+}
+
+#slider3 {
+        width: 1110px;
+    height: 225px;
+    margin: 0 auto;
+    background-color: gold;
+}
