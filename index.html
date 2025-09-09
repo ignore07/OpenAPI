@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>도서 전자책 - 리디</title>
+
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+    <link rel="stylesheet" href="./css/common.css">
+    <link rel="stylesheet" href="./css/index.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <a href="#">logo</a>
+            <div>
+                <form>
+                    <input type="search">
+                </form>
+                <a href="#">회원가입</a>
+                <a href="#">로그인</a>
+            </div>
+        </nav>
+        <div>
+            <div class="left_area">
+                <a href="#">웹툰</a>
+                <a href="#">만화</a>
+                <a href="#">웹소설</a>
+                <a href="#" class="header_click">도서</a>
+                <a href="#">셀렉트</a>
+            </div>
+            <div class="right_area">
+                <a href="#">전체 카테고리</a>
+                <a href="#">캐시충전</a>
+            </div>
+        </div>
+    </header>
+
+
+    <!-- area -->
+    <div id="area">
+        <ul>
+            <li class="area_click"><a href="#">추천</a></li>
+            <li><a href="#">기획전</a></li>
+            <li><a href="#">소설</a></li>
+            <li><a href="#">인문/사회/역사</a></li>
+            <li><a href="#">경영/경제</a></li>
+            <li><a href="#">자기계발</a></li>
+            <li><a href="#">에세이/시</a></li>
+        </ul>
+    </div>
+
+
+
+    <div id="slider">
+        <!-- Swiper -->
+        <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">Slide 1</div>
+                <div class="swiper-slide">Slide 2</div>
+                <div class="swiper-slide">Slide 3</div>
+                <div class="swiper-slide">Slide 4</div>
+                <div class="swiper-slide">Slide 5</div>
+                <div class="swiper-slide">Slide 6</div>
+                <div class="swiper-slide">Slide 7</div>
+                <div class="swiper-slide">Slide 8</div>
+                <div class="swiper-slide">Slide 9</div>
+            </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+        </div>
+    </div>
+
+
+    <!-- select -->
+    <div id="select">
+        <div>
+            <ul>
+                <li>
+                    <a href="#"></a>
+                    <p>신간</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="#"><p>북스 베스트</p></a>
+                </li>
+                <li>
+                    <a href="#"><p>단독 선출간</p></a>
+                </li>
+                <li>
+                    <a href="#"><p>이벤트</p></a>
+                </li>
+                <li>
+                    <a href="#"><p>이달의쿠폰</p></a>
+                </li>
+                <li>
+                    <a href="#"><p>신작 캘린더</p></a>
+                </li>
+                <li>
+                    <a href="#"></a><p>혜택 모아봄</p></a>
+                </li>
+                <li>
+                    <a href=""><p>대여</p></a>
+                </li>
+
+
+            </ul>
+        </div>
+    </div>
+
+    <!-- section1 -->
+    <section id="sec1">
+        <div>
+            <div class="section_title">
+                <h2>오늘, 리디의 발견</h2>
+            </div>
+            
+            
+
+    </section>
+
+    <!-- footer -->
+    <footer>
+        <div class="top_foot">
+
+      <div class="top_foot_r">
+
+        <div class="f_box1">
+          <a href="#">고객센터</a>
+          <a href="#">공지사항</a>
+        </div>
+        <div class="f_box2">
+          <p>서비스</p>
+          <a href="#">제휴카드</a>
+          <a href="#">뷰어 다운로드</a>
+          <a href="#">CP사이트</a>
+          <a href="#">리디바탕</a>
+        </div>
+        <div class="f_box3">
+          <p>기타 문의</p>
+          <a href="#">콘텐츠 제공 문의</a>
+          <a href="#">사업 제휴 문의</a>
+        </div>
+        <div class="f_box4">
+          <p>회사</p>
+          <a href="#">회사 소개</a>
+          <a href="#">인재채용&nbsp;<span id="new">N</span></a>
+        </div>
+      </div>
+
+      <div class="top_foot_l">
+        <a href="#"></a>
+        <a href="#"></a>
+        <a href="#"></a>
+        <a href="#"></a>
+        <a href="#"></a>
+      </div>
+    </div>
+
+    <div class="bottom_foot">
+      <div>리디(주) 사업자 정보&nbsp;</div>
+      <ul>
+        <li>이용약관</li>
+        <li>|</li>
+        <li>개인정보 처리방침</li>
+        <li>|</li>
+        <li>청소년보호정책</li>
+        <li>|</li>
+        <li>사업자정보확인</li>
+      </ul>
+      <p>&copy; RIDI Corp.</p>
+    </div>
+    </footer>
+
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+            navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
+            },
+        });
+
+
+    </script>
+</body>
+
+</html>

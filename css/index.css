@@ -1,0 +1,9 @@
+@charset "utf-8";
+
+/* slider */
+#slider {
+    width: 1110px;
+    height: 400px;
+    margin: 0 auto;
+    background-color: yellow;
+}
