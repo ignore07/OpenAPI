@@ -73,6 +73,10 @@ nav {
     background-color: plum
 }
 
+nav img {
+    width: 100%;
+}
+
 nav>a {
     width: 56.96px;
     height: 20.3px;
@@ -139,6 +143,12 @@ header>div .left_area .header_click {
 
 header>div .right_area a {
     margin-left: 18px;
+}
+
+header > div img {
+  width: 17px;
+  height: 17px;
+  margin-bottom: -3px;
 }
 
 #area {
@@ -210,6 +220,10 @@ header>div .right_area a {
     
 }
 
+#select ul img {
+    width: 75px;
+}
+
 
 
 /* section  */
@@ -231,6 +245,21 @@ header>div .right_area a {
     justify-content: space-between;
     align-items: center;
 }
+
+#sec1 h2 {
+    font-size: 22px;
+}
+#sec2 {
+    padding-top: 20px;
+    padding-bottom: 5px;
+}
+
+#sec3 {
+    padding-top: 20px;
+    padding-bottom: 5px;
+}
+
+
 
 
 
