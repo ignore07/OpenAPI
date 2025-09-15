@@ -5,29 +5,8 @@
     width: 1110px;
     height: 400px;
     margin: 0 auto;
-    
+
     background-color: yellow;
 }
 
-#slider img {
-    width: 100%;
-    
-    
-    
 
-}
-
-#slider2 {
-     width: 1110px;
-    height: 260px;
-    margin: 0 auto;
-    background-color: plum;
-}
-
-
-#slider3 {
-    width: 1110px;
-    height: 225px;
-    margin: 0 auto;
-    background-color: gold;
-}
