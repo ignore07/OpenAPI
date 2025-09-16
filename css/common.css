@@ -141,6 +141,11 @@ header>div .left_area .header_click {
     color: #1e9eff;
 }
 
+.left_area a:not(.header_click):hover {
+    opacity: 0.4;
+    transition: all 0.2s ease-out;
+}
+
 header>div .right_area a {
     margin-left: 18px;
 }
